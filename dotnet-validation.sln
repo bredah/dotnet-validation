@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiShared", "ApiShared\ApiS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTests", "WebTests\WebTests.csproj", "{522488F6-B795-4DBC-9428-052352229821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShared", "WebShared\WebShared.csproj", "{BC679014-44AB-40D2-9322-5F1B53EEF17C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{522488F6-B795-4DBC-9428-052352229821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522488F6-B795-4DBC-9428-052352229821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522488F6-B795-4DBC-9428-052352229821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC679014-44AB-40D2-9322-5F1B53EEF17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC679014-44AB-40D2-9322-5F1B53EEF17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC679014-44AB-40D2-9322-5F1B53EEF17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC679014-44AB-40D2-9322-5F1B53EEF17C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

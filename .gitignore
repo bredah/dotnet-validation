@@ -7,3 +7,6 @@ obj/
 .idea/
 ## VSCODE
 .vscode/
+
+# Dev files
+.env
