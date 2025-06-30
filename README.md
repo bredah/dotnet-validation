@@ -69,6 +69,21 @@ dotnet test WebTests
 
 Ensure your `.env` files are configured where needed (e.g. credentials, browser).
 
+## Continuous Integration (CI)
+
+This repository includes a GitHub Actions pipeline defined in .github/workflows/ci.yml:
+
+- Runs automatically on every push or pull_request to main.
+- Can be triggered manually at any time using Run workflow in the Actions tab.
+- Currently runs only ApiTests by default — WebTests are skipped for now due to captcha challenges.
+- Ensures that API contract tests pass before merging.
+
+Example manual run:
+
+1. Go to Actions → .NET Validation CI
+2. Click Run workflow
+3. Select main (or any branch) and run on demand.
+
 ## Best Practices
 
 - Use `ApiShared` and `WebShared` for reusable code — **keep DRY**.
